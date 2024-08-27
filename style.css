@@ -24,11 +24,13 @@
     height: 200px;
     border-radius: 15px;  
     position: relative;
+    width: 1000px;
     /* border: 5px solid black; */
 }
 
 .block:hover{
     height: 300px;
+    width: 1500px;
 }
 
 .info1{
@@ -42,9 +44,7 @@
 
 #b1{
     background-color: green;
-    margin-top: 350px;
-    margin-left: 40px;
-    width: 900px;
+    margin-top: 350px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,6 @@
 
 #b1:hover{
     height: 300px;
-    width: 950px;
 }
 /* .b1::after{
     content: ;
@@ -75,20 +74,15 @@
 }
 
 #b2{
-    margin-top: 350px;
     background-color: yellow;
-    margin-left: 40px;
-    width: 400px;
     transition: 1s;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 #b2:hover{
     height: 300px;
-    width: 450px;
 }
 
 .pinfo{
@@ -107,9 +101,7 @@
 } */
 
 #b3{
-    margin-top: 68px;
     background-color: orange;
-    width: 300px;
     transition: 1s;
     display: flex;
     justify-content: center;
@@ -119,7 +111,7 @@
 
 #b3:hover{
     height: 300px;
-    width: 350px;
+    
 }
 
 .pinfo3{
@@ -144,13 +136,8 @@
 
 
 #b4{
-    margin-top: 68px;
     background-color: blue;
-    width: 1000px;
     transition: 1s;
-    &:hover{
-        width: 1050px;
-    }
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,153 +165,110 @@
 }
 
 #b5{
-    margin-top: 68px;
+   
     background-color: black;
-    width: 200px;
     transition: 1s;
-    &:hover{
-        width: 250px;
-    }
+
 }
 
 #b6{
     margin-top: 68px;
     background-color: red;
-    width: 650px;
+    
     transition: 1s;
-    &:hover{
-        width: 700px;
-    }
+    
 }
 
 #b7{
     margin-top: 68px;
     background-color: green;
-    width: 436px;
+ 
     transition: 1s;
-    &:hover{
-        width: 476px;
-    }
 }
 
 #b8{
     margin-top: 68px;
     background-color: orange;
-    width: 600px;
+
     transition: 1s;
-    &:hover{
-        width: 750px;
-    }
 }
 
 #b9{
     margin-top: 68px;
     background-color: blue;
-    width: 1000px;
+
     transition: 1s;
-    &:hover{
-        width: 1050px;
-    }
 }
 
 #b10{
     margin-top: 68px;
     background-color: purple;
-    width: 300px;
+
     transition: 1s;
-    &:hover{
-        width: 450px;
-    }
 }
 
 #b11{
     margin-top: 68px;
     background-color: yellow;
-    width: 700px;
+
     transition: 1s;
-    &:hover{
-        width: 750px;
-    }
 }
 
 #b12{
     margin-top: 68px;
     background-color: grey;
-    width: 398px;
+
     transition: 1s;
-    &:hover{
-        width: 458px;
-    }
 }
 
 #b13{
     margin-top: 68px;
     background-color: pink;
-    width: 398px;
+
     transition: 1s;
-    &:hover{
-        width: 448px;
-    }
 }
 
 #b14{
     margin-top: 68px;
     background-color: blue;
-    width: 200px;
+
     transition: 1s;
-    &:hover{
-        width: 250px;
-    }
 }
 
 #b15{
     margin-top: 68px;
     background-color: orange;
-    width: 600px;
     transition: 1s;
-    &:hover{
-        width: 650px;
-    }
 }
 
 #b16{
     margin-top: 68px;
     background-color: purple;
-    width: 380px;
+
     transition: 1s;
-    &:hover{
-        width: 430px;
-    }
 }
 
 #b17{
     margin-top: 68px;
     background-color: red;
-    width: 700px;
+
     transition: 1s;
-    &:hover{
-        width: 750px;
-    }
+
 }
 
 #b18{
     margin-top: 68px;
     background-color: green;
-    width: 500px;
+
     transition: 1s;
-    &:hover{
-        width: 550px;
-    }
 }
 
 #b19{
     margin-top: 68px;
     background-color: blue;
-    width: 698px;
+
     transition: 1s;
-    &:hover{
-        width: 748px;
-    }
+
 }
 
 @keyframes appear{
