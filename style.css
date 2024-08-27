@@ -74,6 +74,7 @@
 }
 
 #b2{
+    margin-top: 68px;
     background-color: yellow;
     transition: 1s;
     display: flex;
@@ -101,6 +102,7 @@
 } */
 
 #b3{
+    margin-top: 68px;
     background-color: orange;
     transition: 1s;
     display: flex;
@@ -136,6 +138,7 @@
 
 
 #b4{
+    margin-top: 68px;
     background-color: blue;
     transition: 1s;
     display: flex;
@@ -165,7 +168,7 @@
 }
 
 #b5{
-   
+    margin-top: 68px;
     background-color: black;
     transition: 1s;
 
