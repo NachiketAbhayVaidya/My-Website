@@ -295,10 +295,10 @@
 #card{
     margin: 0 auto;
     padding: 2em;
-    width: 600px;
+    width: 700px;
     color: black;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 10px;
     position: relative;
     font-weight: 700;
     font-style: italic;
@@ -319,9 +319,9 @@
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    background-image: conic-gradient(from var(--angle),red,blue,green,red);
+    background-image: conic-gradient(from var(--angle),blue,white,blue);
     z-index: -1;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 3px;
     animation: 2s spin linear infinite;
    
