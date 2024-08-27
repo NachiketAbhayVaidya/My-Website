@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#topbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+}
+
+.parentblock{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.block{
+    height: 200px;
+    border-radius: 15px;  
+    position: relative;
+    /* border: 5px solid black; */
+}
+
+.block:hover{
+    height: 300px;
+}
+
+.info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    gap: 20px;
+}
+
+#b1{
+    background-color: green;
+    margin-top: 350px;
+    margin-left: 40px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+    font-weight: 800;
+    transition: 1s;
+}
+
+#b1:hover{
+    height: 300px;
+    width: 950px;
+}
+/* .b1::after{
+    content: ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:red;
+    z-index: -1;
+} */
+
+#SPS{
+    height: 180px;
+    width: 200px;
+    visibility: visible; 
+    border-radius: 10px;
+}
+
+#b2{
+    margin-top: 350px;
+    background-color: yellow;
+    margin-left: 40px;
+    width: 400px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#b2:hover{
+    height: 300px;
+    width: 450px;
+}
+
+.pinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    gap: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* .pinfo:hover{
+    height: 500px;
+} */
+
+#b3{
+    margin-top: 68px;
+    background-color: orange;
+    width: 300px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#b3:hover{
+    height: 300px;
+    width: 350px;
+}
+
+.pinfo3{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    gap: 10px;
+    font-style: italic;
+    
+}
+
+#SPSQR{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+
+
+#b4{
+    margin-top: 68px;
+    background-color: blue;
+    width: 1000px;
+    transition: 1s;
+    &:hover{
+        width: 1050px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+
+#gameQR{
+    height: 180px;
+    width: 130px;
+    margin-right: 0px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.pinfo4{
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+#b5{
+    margin-top: 68px;
+    background-color: black;
+    width: 200px;
+    transition: 1s;
+    &:hover{
+        width: 250px;
+    }
+}
+
+#b6{
+    margin-top: 68px;
+    background-color: red;
+    width: 650px;
+    transition: 1s;
+    &:hover{
+        width: 700px;
+    }
+}
+
+#b7{
+    margin-top: 68px;
+    background-color: green;
+    width: 436px;
+    transition: 1s;
+    &:hover{
+        width: 476px;
+    }
+}
+
+#b8{
+    margin-top: 68px;
+    background-color: orange;
+    width: 600px;
+    transition: 1s;
+    &:hover{
+        width: 750px;
+    }
+}
+
+#b9{
+    margin-top: 68px;
+    background-color: blue;
+    width: 1000px;
+    transition: 1s;
+    &:hover{
+        width: 1050px;
+    }
+}
+
+#b10{
+    margin-top: 68px;
+    background-color: purple;
+    width: 300px;
+    transition: 1s;
+    &:hover{
+        width: 450px;
+    }
+}
+
+#b11{
+    margin-top: 68px;
+    background-color: yellow;
+    width: 700px;
+    transition: 1s;
+    &:hover{
+        width: 750px;
+    }
+}
+
+#b12{
+    margin-top: 68px;
+    background-color: grey;
+    width: 398px;
+    transition: 1s;
+    &:hover{
+        width: 458px;
+    }
+}
+
+#b13{
+    margin-top: 68px;
+    background-color: pink;
+    width: 398px;
+    transition: 1s;
+    &:hover{
+        width: 448px;
+    }
+}
+
+#b14{
+    margin-top: 68px;
+    background-color: blue;
+    width: 200px;
+    transition: 1s;
+    &:hover{
+        width: 250px;
+    }
+}
+
+#b15{
+    margin-top: 68px;
+    background-color: orange;
+    width: 600px;
+    transition: 1s;
+    &:hover{
+        width: 650px;
+    }
+}
+
+#b16{
+    margin-top: 68px;
+    background-color: purple;
+    width: 380px;
+    transition: 1s;
+    &:hover{
+        width: 430px;
+    }
+}
+
+#b17{
+    margin-top: 68px;
+    background-color: red;
+    width: 700px;
+    transition: 1s;
+    &:hover{
+        width: 750px;
+    }
+}
+
+#b18{
+    margin-top: 68px;
+    background-color: green;
+    width: 500px;
+    transition: 1s;
+    &:hover{
+        width: 550px;
+    }
+}
+
+#b19{
+    margin-top: 68px;
+    background-color: blue;
+    width: 698px;
+    transition: 1s;
+    &:hover{
+        width: 748px;
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        /* transform: translateX(-100px); */
+    }to{
+        opacity: 1;
+        scale: 1;
+        /* transform: translateX(0px); */
+    }
+}
+
+.block{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+#card{
+    margin: 0 auto;
+    padding: 2em;
+    width: 600px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+    font-weight: 700;
+    font-style: italic;
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+#card::after, #card::before{
+    
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-image: conic-gradient(from var(--angle),red,blue,green,red);
+    z-index: -1;
+    border-radius: 50px;
+    padding: 3px;
+    animation: 2s spin linear infinite;
+   
+}
+
+#card::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }to{
+        --angle: 360deg;
+    }
+}
+
+
+/* #image{
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: ;
+} */
+
+
+
